@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anime World - Your Gateway to Japanese Animation</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Poppins:wght@400;600;700&family=Bungee&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">アニメ World</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#top-anime">Top Anime</a></li>
+                <li><a href="#schedule">Schedule</a></li>
+                <li><a href="#trailers">Trailers</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="hero" id="home">
+            <div class="hero-content">
+                <h1>Welcome to Anime World</h1>
+                <p>Your ultimate guide to Japanese animation</p>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section id="top-anime" class="section">
+            <h2>Top Rated Anime</h2>
+            <div class="anime-grid">
+                <article class="anime-card">
+                    <img src="https://images.unsplash.com/photo-1519608487953-e999c86e7455?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Anime Title 1">
+                    <div class="anime-info">
+                        <h3>Cyberpunk: Edgerunners</h3>
+                        <p>Rating: ⭐⭐⭐⭐⭐</p>
+                        <div class="tags">
+                            <span>Sci-fi</span>
+                            <span>Action</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="anime-card">
+                    <img src="https://plus.unsplash.com/premium_photo-1713110640802-28de8804e163?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Anime Title 2">
+                    <div class="anime-info">
+                        <h3>Demon Slayer</h3>
+                        <p>Rating: ⭐⭐⭐⭐⭐</p>
+                        <div class="tags">
+                            <span>Action</span>
+                            <span>Fantasy</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="anime-card">
+                    <img src="https://images.unsplash.com/photo-1519638399535-1b036603ac77?q=80&w=1931&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Anime Title 3">
+                    <div class="anime-info">
+                        <h3>Ghost in the Shell</h3>
+                        <p>Rating: ⭐⭐⭐⭐⭐</p>
+                        <div class="tags">
+                            <span>Sci-fi</span>
+                            <span>Cyberpunk</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+        <section id="schedule" class="section">
+            <h2>Weekly Schedule</h2>
+            <div class="table-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Time</th>
+                            <th>Monday</th>
+                            <th>Tuesday</th>
+                            <th>Wednesday</th>
+                            <th>Thursday</th>
+                            <th>Friday</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>18:00</td>
+                            <td>One Piece</td>
+                            <td>Naruto</td>
+                            <td>Dragon Ball</td>
+                            <td>Bleach</td>
+                            <td>Attack on Titan</td>
+                        </tr>
+                        <tr>
+                            <td>20:00</td>
+                            <td>Death Note</td>
+                            <td>Code Geass</td>
+                            <td>Steins;Gate</td>
+                            <td>Full Metal Alchemist</td>
+                            <td>Hunter x Hunter</td>
+                        </tr>
+                        <tr>
+                            <td>22:00</td>
+                            <td>Jujutsu Kaisen</td>
+                            <td>My Hero Academia</td>
+                            <td>Black Clover</td>
+                            <td>Demon Slayer</td>
+                            <td>Tokyo Ghoul</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+        <section id="trailers" class="section">
+            <h2>Latest Trailers</h2>
+            <div class="media-container">
+                <div class="video-container">
+                    <iframe 
+                        width="560" 
+                        height="315" 
+                        src="https://www.youtube.com/embed/dQw4w9WgXcQ" 
+                        title="Anime Trailer" 
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen>
+                    </iframe>
+                </div>
+                <div class="audio-section">
+                    <h3>Featured Theme Songs</h3>
+                    <audio controls>
+                        <source src="https://soundcloud.com/best-of-anime-soundtracks/hunter-x-hunter-the-old-man-is-crucified?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="section">
+            <h2>Contact Us</h2>
+            <form class="contact-form">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="favorite-genre">Favorite Genre:</label>
+                    <select id="favorite-genre" name="favorite-genre">
+                        <option value="action">Action</option>
+                        <option value="romance">Romance</option>
+                        <option value="scifi">Sci-Fi</option>
+                        <option value="fantasy">Fantasy</option>
+                        <option value="horror">Horror</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label>Interests:</label>
+                    <div class="checkbox-group">
+                        <input type="checkbox" id="manga" name="interests" value="manga">
+                        <label for="manga">Manga</label>
+                        <input type="checkbox" id="cosplay" name="interests" value="cosplay">
+                        <label for="cosplay">Cosplay</label>
+                        <input type="checkbox" id="merchandise" name="interests" value="merchandise">
+                        <label for="merchandise">Merchandise</label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-content">
+            <div class="social-links">
+                <a href="#" class="social-link">Twitter</a>
+                <a href="#" class="social-link">Instagram</a>
+                <a href="#" class="social-link">Discord</a>
+            </div>
+            <p>&copy; 2023 Anime World. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
